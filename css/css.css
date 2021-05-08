@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.navbar-nav {
+    margin-left: 174px;
+}
+.nav-item {
+    padding: 2px 10px;
+}
+.nav-link {
+    color: #989898;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+.hero{
+   width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+   
+}
+.hero-content{
+      text-align: center;
+    margin-top: 200px;
+margin-bottom: 200px;
+}
+.hero-content h1{
+    color: white;
+font-size: 50px;
+font-weight: 600;
+padding-bottom: 20px;
+}
+.hero-content h4{
+    font-size: 36px;
+color: white;
+font-weight: 400;
+padding-bottom: 50px;
+}
+.hero-btn{
+        border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #99c50a;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+.hero-btn:hover{
+    color: #99c50a;
+    background-color: whitesmoke;
+}
+.our-work{
+   width: 100%;
+    float: left;
+    padding: 25px 0;
+    text-align: center;
+}
+.work-one{
+        margin-top: 90px;
+}
+
+.work-one h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+        color: #515151;
+}
+.work-one h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+        color: #515151;
+}
+.work-two{
+    margin-top: 70px;
+text-align: center;
+    margin-bottom: 120px;
+}
+.work-two h5{
+    font-size: 22px;
+font-weight: 200;
+line-height: 2;
+color: #838383;
+}
+.work-two p{
+    font-size: 22px;
+font-weight: 200;
+line-height: 2;
+color: #838383;
+    padding-top: 50px;
+}
+.service{
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+}
+.service-one{
+    background-color: #e2f8ff;
+    padding: 25px;
+    width: 50%;
+    float: left;
+}
+.service-two{
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+    padding: 25px;
+
+}
+.service-one-image{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.service-one-content{
+
+}
+.service-one-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.service-one-content p{
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 600;
+    color: #515151;
+}
+.service-one-btn{
+     padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 10px;
+}
+.service-one-btn:hover{
+    background-color: white;
+    color: #26a6d1;
+}
+.service-two-btn{
+   padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #add136;
+    color: white;
+    border-radius: 10px;
+}
+.service-two-btn:hover{
+    background-color: white;
+    color: #add136;
+}
+.about{
+    width: 100%;
+float: left;
+padding: 25px 0;
+}
+.about-content{
+    
+}
+.about h2{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 20px;
+}
+.about-content p{
+    font-size: 20px;
+    color: #a5a5a5;
+}
+.about-btn{
+   border: 1px solid #9c9c9c;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 10px;
+    color: #9c9c9c;
+    font-weight: 600;
+}
+.about-btn:hover{
+    background-color: white;
+    color: #add136;
+}
+.cards{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.cards-one{
+
+}
+.card-one-img{
+     position: relative;
+}
+.card-one-img img{
+    width: 100%;
+}
+.card-one-img a{
+    font-size: 20px;
+    background-color: #26a6d1;
+    color: white!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 77%;
+    right: 15px;
+}
+span{
+  font-weight: bold;
+}
+.card-one-content{
+       padding-top: 25px;
+    background-color: #f9f9f9;
+        padding-left: 23px;
+    padding-right: 17px;
+        border-bottom: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+}
+.card-one-content h4{
+   font-size: 20px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+.card-one-content p{
+       font-size: 16px;
+    line-height: 2;
+    color: #7b7b7b;
+    padding-bottom: 50px;
+}
+.card-one-content h5{
+   display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+.card-one-content h6{
+   display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7b7b7b;
+    float: right;
+}
+.car-border{
+  border-bottom: 1px solid #d6d6d6;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.card-one-content a{
+   text-decoration: none;
+    margin-left: 118px;
+    font-size: 20px;
+    color: #7b7b7b;
+}
+.card-one-content a:hover{
+    color: #add136;
+}
+.fa.fa-caret-right{
+     font-size: 27px;
+    margin-bottom: 30px;
+    color: #add136;
+}
+.footer-img{
+        width: 100%;
+    float: left;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+footer{
+  width: 100%;
+    float: left;
+}
+footer h6{
+  border-bottom: 3px solid #ededed;
+    margin-bottom: 20px;
+}
+footer p{
+  color: #848484;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    .nav-item {
+    padding: 5px 0;
+}
+    ul.navbar-nav {
+    margin-left: 0;
+}
+    .hero {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 30px 0;
+}
+    .hero-content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+    .hero-content h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+    .hero-content h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+    .hero-btn {
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #99c50a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+    .work-one {
+    margin-top: 30px;
+}
+    .work-one h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #515151;
+}
+    .work-one h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 0px;
+    color: #515151;
+}
+       .work-two {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+    .work-two h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    text-align: justify;
+}
+    .work-two p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    padding-top: 15px;
+    text-align: justify;
+}
+    .service-one {
+    background-color: #e2f8ff;
+    padding: 25px;
+    width: 100%;
+    float: left;
+        text-align: center;
+}
+    .service-one-image {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .service-one-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+    .service-two {
+    width: 100%;
+    float: left;
+    background-color: #f5f9eb;
+    padding: 25px;
+        text-align: center;
+}
+    .about h2 {
+    padding-top: 0;
+    font-size: 34px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 20px;
+}
+    .about-content p {
+    font-size: 16px;
+    color: #a5a5a5;
+}
+    .cards {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+    .card-one-content h4 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+    .card-one-content a {
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 20px;
+    color: #7b7b7b;
+}
+    .card-one-img {
+    position: relative;
+    margin-top: 15px;
+}
+    .footer-img {
+    width: 100%;
+    float: left;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+    footer p {
+    color: #848484;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+}
+@media (min-width: 400px) and (max-width: 576px){
+
+}
+@media (min-width: 576.01px) and (max-width: 768px){
+       .nav-item {
+    padding: 5px 0;
+}
+    ul.navbar-nav {
+    margin-left: 0;
+}
+       .hero {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 30px 0;
+}
+    .hero-content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+    .hero-content h1 {
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+    .hero-content h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+    .hero-btn {
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #99c50a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+    .work-two {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+    .work-two h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    text-align: justify;
+}
+    .work-two p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    padding-top: 15px;
+    text-align: justify;
+}
+    .work-one {
+    margin-top: 30px;
+}
+    .work-one h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #515151;
+}
+    .work-one h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 0px;
+    color: #515151;
+}
+       .work-two {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+    .work-two h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    text-align: justify;
+}
+    .work-two p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    padding-top: 15px;
+    text-align: justify;
+}
+       .service-one {
+    background-color: #e2f8ff;
+    padding: 25px;
+    width: 100%;
+    float: left;
+        text-align: center;
+}
+    .service-one-image {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .service-one-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+    .service-two {
+    width: 100%;
+    float: left;
+    background-color: #f5f9eb;
+    padding: 25px;
+        text-align: center;
+}
+    .card-one-img {
+    margin-top: 15px;
+}
+    .cards {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+    .footer-img {
+    width: 100%;
+    float: left;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+}
+@media (width: 768px){
+       .service-one {
+    background-color: #e2f8ff;
+    padding: 25px;
+    width: 50%;
+    float: left;
+
+}
+    .service-one-image {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .service-one-content h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+    .service-one-content p {
+    font-size: 8px;
+    line-height: 2;
+    font-weight: 600;
+    color: #515151;
+    text-align: justify;
+}
+    .service-one-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+    .service-two {
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+    padding: 25px;
+
+}
+    .service-two-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #add136;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+    .card-one-content h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+    .card-one-content p {
+    font-size: 10px;
+    line-height: 2;
+    color: #7b7b7b;
+    padding-bottom: 0;
+}
+    .card-one-content h5 {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+    .card-one-content h5 {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+    .card-one-content h6 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #7b7b7b;
+    float: right;
+}
+    .card-one-content a {
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 17px;
+    color: #7b7b7b;
+}
+    .fa.fa-caret-right {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #add136;
+}
+    .cards {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+    .footer-img {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+       .nav-item {
+    padding: 5px 0;
+}
+    ul.navbar-nav {
+    margin-left: 0;
+}
+          .hero {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 30px 0;
+}
+    .hero-content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+    .hero-content h1 {
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+    .hero-content h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+    .hero-btn {
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #99c50a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+    .work-one {
+    margin-top: 30px;
+}
+    .work-one h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #515151;
+}
+    .work-one h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 0px;
+    color: #515151;
+}
+       .work-two {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+    .work-two h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    text-align: justify;
+}
+    .work-two p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    color: #838383;
+    padding-top: 15px;
+    text-align: justify;
+}
+       .service-one {
+    background-color: #e2f8ff;
+    padding: 25px;
+    width: 50%;
+    float: left;
+
+}
+    .service-one-image {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .service-one-content h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+    .service-one-content p {
+    font-size: 8px;
+    line-height: 2;
+    font-weight: 600;
+    color: #515151;
+    text-align: justify;
+}
+    .service-one-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+    .service-two {
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+    padding: 25px;
+
+}
+    .service-two-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #add136;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+        .card-one-content h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+    .card-one-content p {
+    font-size: 10px;
+    line-height: 2;
+    color: #7b7b7b;
+    padding-bottom: 0;
+}
+    .card-one-content h5 {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+    .card-one-content h5 {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+    .card-one-content h6 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #7b7b7b;
+    float: right;
+}
+    .card-one-content a {
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 17px;
+    color: #7b7b7b;
+}
+    .fa.fa-caret-right {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #add136;
+}
+    .cards {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+    .footer-img {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+}
+
+
+
